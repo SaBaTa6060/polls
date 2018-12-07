@@ -45,17 +45,25 @@
     <Compile Include="polls\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="polls\static\polls\images\background.gif" />
+    <Content Include="polls\static\polls\style.css" />
     <Content Include="polls\templates\polls\detail.html" />
     <Content Include="polls\templates\polls\index.html" />
     <Content Include="polls\templates\polls\results.html" />
     <Content Include="requirements.txt" />
+    <Content Include="templates\admin\base_site.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="mysite\" />
+    <Folder Include="templates\" />
     <Folder Include="polls\" />
     <Folder Include="polls\migrations\" />
+    <Folder Include="polls\static\" />
+    <Folder Include="polls\static\polls\" />
+    <Folder Include="polls\static\polls\images\" />
     <Folder Include="polls\templates\" />
     <Folder Include="polls\templates\polls\" />
+    <Folder Include="templates\admin\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
